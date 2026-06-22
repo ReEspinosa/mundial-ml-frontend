@@ -8,9 +8,9 @@ import DayResults from './pages/DayResults';
 import MatchDetail from './pages/MatchDetail';
 import Support from './pages/Support';
 export default function App() {
-  const [accepted, setAccepted] = useState(() => localStorage.getItem('disclaimer_accepted') === 'true');
+  const [accepted, setAccepted] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  function handleAccept() { localStorage.setItem('disclaimer_accepted', 'true'); setAccepted(true); }
+  function handleAccept() { setAccepted(true); }
   return (<>
     {!accepted && <Disclaimer onAccept={handleAccept} />}
     <div className="app-layout">
