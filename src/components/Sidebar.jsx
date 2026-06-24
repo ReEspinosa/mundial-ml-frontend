@@ -10,6 +10,7 @@ export default function Sidebar({ open, onClose }) {
         <div className="sidebar-section-label">Principal</div>
         <NavLink to="/" end>Inicio</NavLink>
         <NavLink to="/como-probar">Cómo probar el código</NavLink>
+        <NavLink to="/curso">Mini-curso de ML</NavLink>
         <div className="sidebar-section-label">Resultados por día</div>
         <button onClick={() => setDaysOpen(!daysOpen)}>Fase de grupos {daysOpen ? '▾' : '▸'}</button>
         {daysOpen && DAYS.map(d => (<NavLink key={d.id} to={`/resultados/${d.id}`} className="day-link">{d.label}</NavLink>))}
