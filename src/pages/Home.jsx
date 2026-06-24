@@ -8,6 +8,7 @@ export default function Home() {
       <div style={{marginTop:'1.5rem',display:'flex',gap:'1rem',justifyContent:'center',flexWrap:'wrap'}}>
         <Link to="/resultados/jun22" className="btn btn-accent">Ver predicciones</Link>
         <Link to="/como-probar" className="btn btn-outline">Probar el código</Link>
+        <Link to="/curso" className="btn btn-outline">Mini-curso de ML</Link>
       </div>
     </div>
     {/* CAMBIA: pon una imagen en public/images/hero_ml.png */}
