@@ -61,7 +61,7 @@ export const MATCHES = [
   {id:'cpv-sau',day:'jun26',homeCode:'cv',awayCode:'sa',home:'Cabo Verde',away:'Arabia Saudita',group:'Grupo G',time:'8:00 PM ET',venue:'NRG Stadium, Houston',
    graphs:{mcmc:'/graphs/jun26/cap_mcmc.png',xgboost:'/graphs/jun26/cap_xgb.png',accuracy:'/graphs/jun26/cap_accuracy.png', Resumen:'/graphs/jun26/cap_resumen.png'},colabLink:'https://drive.google.com/file/d/1pTY2hltDVy1uwdmb_qVL_ce0osDUOgO_/view?usp=sharing'},
   {id:'uru-esp',day:'jun26',homeCode:'uy',awayCode:'es',home:'Uruguay',away:'España',group:'Grupo G',time:'8:00 PM ET',venue:'Estadio Akron, Zapopan',
-   graphs:{mcmc:'/graphs/jun26/uru_mcmc.png',xgboost:'/graphs/jun26/uru_xgb.png',accuracy:'/graphs/jun26/uru_accuracy.png', Resumen:'/graphs/jun26/uru_resumen.png'},colabLink:'https://drive.google.com/file/d/12yBuo99DKzYHur4iC2FTwZUl3Kew28Xf/view?usp=sharing'},
+   graphs:{mcmc:'/graphs/jun26/uru_mcmc.png',xgboost:'/graphs/jun26/uru_xgb.png',accuracy:'/graphs/jun26/uru_accuracy.png', Resumen:'/graphs/jun26/uru_resumen.png'},colabLink:'https://drive.google.com/file/d/1Zy__b2fEbuVOf5kItnnhTd6-61V8ya_H/view?usp=sharing'},
   {id:'egy-irn',day:'jun26',homeCode:'eg',awayCode:'ir',home:'Egipto',away:'Irán',group:'Grupo H',time:'11:00 PM ET',venue:'Lumen Field, Seattle',
    graphs:{mcmc:'/graphs/jun26/egy_mcmc.png',xgboost:'/graphs/jun26/egy_xgb.png',accuracy:'/graphs/jun26/egy_accuracy.png', Resumen:'/graphs/jun26/egy_resumen.png'},colabLink:'https://drive.google.com/file/d/16I7kO7_6h-hvhVt54RipzM9EaaWI4jU-/view?usp=sharing'},
   {id:'nzl-bel',day:'jun26',homeCode:'nz',awayCode:'be',home:'Nueva Zelanda',away:'Bélgica',group:'Grupo H',time:'11:00 PM ET',venue:'BC Place, Vancouver',
